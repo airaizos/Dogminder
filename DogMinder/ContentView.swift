@@ -27,8 +27,9 @@ struct ContentView: View {
                     }
                 }
                 .onDelete(perform: deleteItems)
-            }
+            }.navigationTitle("Prueba") //Añadida de prueba
             .toolbar {
+               
                 ToolbarItem(placement: .navigationBarTrailing) {
                     EditButton()
                 }
