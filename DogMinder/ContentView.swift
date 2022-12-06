@@ -25,6 +25,7 @@ struct ContentView: View {
                     } label: {
                         Text(item.timestamp!, formatter: itemFormatter)
                         Text("Prueba")
+                        Text("Prueba2")
                     }.fontWeight(.bold)
                 }
                 .onDelete(perform: deleteItems)
