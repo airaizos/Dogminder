@@ -21,10 +21,11 @@ struct ContentView: View {
             List {
                 ForEach(items) { item in
                     NavigationLink {
-                        Text("Tiempo at \(item.timestamp!, formatter: itemFormatter)")
+                        Text("Tiempo at \(item.timestamp!, formatter: itemFormatter) ")
                     } label: {
                         Text(item.timestamp!, formatter: itemFormatter)
-                    }
+                        Text("Prueba")
+                    }.fontWeight(.bold)
                 }
                 .onDelete(perform: deleteItems)
             }
@@ -35,7 +36,7 @@ struct ContentView: View {
                 ToolbarItem {
                     Button(action: addItem) {
                         Label("Add Item", systemImage: "plus")
-                    }
+                    }.fontWeight(.bold)
                 }
             }
             Text("Select an item")
