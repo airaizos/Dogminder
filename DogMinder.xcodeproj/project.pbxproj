@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A177BAC29490094008D7B69 /* MainPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A177BAB29490094008D7B69 /* MainPageView.swift */; };
 		3A6DACF429376BCA00B86788 /* DogMinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6DACF329376BCA00B86788 /* DogMinderApp.swift */; };
 		3A6DACF629376BCA00B86788 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6DACF529376BCA00B86788 /* ContentView.swift */; };
 		3A6DACF829376BCA00B86788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A6DACF729376BCA00B86788 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 		3A6DAD0A29376BCB00B86788 /* DogMinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6DAD0929376BCB00B86788 /* DogMinderTests.swift */; };
 		3A6DAD1429376BCB00B86788 /* DogMinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6DAD1329376BCB00B86788 /* DogMinderUITests.swift */; };
 		3A6DAD1629376BCB00B86788 /* DogMinderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6DAD1529376BCB00B86788 /* DogMinderUITestsLaunchTests.swift */; };
+		3AD9853A2949101D004B81D6 /* VetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD985392949101D004B81D6 /* VetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A177BAB29490094008D7B69 /* MainPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageView.swift; sourceTree = "<group>"; };
 		3A6DACF029376BCA00B86788 /* DogMinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogMinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A6DACF329376BCA00B86788 /* DogMinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogMinderApp.swift; sourceTree = "<group>"; };
 		3A6DACF529376BCA00B86788 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +51,7 @@
 		3A6DAD0F29376BCB00B86788 /* DogMinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogMinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A6DAD1329376BCB00B86788 /* DogMinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogMinderUITests.swift; sourceTree = "<group>"; };
 		3A6DAD1529376BCB00B86788 /* DogMinderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogMinderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3AD985392949101D004B81D6 /* VetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A177BAA2949006E008D7B69 /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				3A177BAB29490094008D7B69 /* MainPageView.swift */,
+			);
+			path = MainPage;
+			sourceTree = "<group>";
+		};
 		3A6DACE729376BCA00B86788 = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +110,8 @@
 		3A6DACF229376BCA00B86788 /* DogMinder */ = {
 			isa = PBXGroup;
 			children = (
+				3AD985382949100D004B81D6 /* Vet */,
+				3A177BAA2949006E008D7B69 /* MainPage */,
 				3A6DACF329376BCA00B86788 /* DogMinderApp.swift */,
 				3A6DACF529376BCA00B86788 /* ContentView.swift */,
 				3A6DACF729376BCA00B86788 /* Assets.xcassets */,
@@ -131,6 +145,14 @@
 				3A6DAD1529376BCB00B86788 /* DogMinderUITestsLaunchTests.swift */,
 			);
 			path = DogMinderUITests;
+			sourceTree = "<group>";
+		};
+		3AD985382949100D004B81D6 /* Vet */ = {
+			isa = PBXGroup;
+			children = (
+				3AD985392949101D004B81D6 /* VetView.swift */,
+			);
+			path = Vet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +287,8 @@
 			files = (
 				3A6DACFD29376BCA00B86788 /* Persistence.swift in Sources */,
 				3A6DACF629376BCA00B86788 /* ContentView.swift in Sources */,
+				3AD9853A2949101D004B81D6 /* VetView.swift in Sources */,
+				3A177BAC29490094008D7B69 /* MainPageView.swift in Sources */,
 				3A6DACF429376BCA00B86788 /* DogMinderApp.swift in Sources */,
 				3A6DAD0029376BCA00B86788 /* DogMinder.xcdatamodeld in Sources */,
 			);
