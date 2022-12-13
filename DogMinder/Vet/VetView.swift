@@ -14,6 +14,7 @@ struct VetView: View {
     
     var body: some View {
         VStack(alignment: .center) {
+            
             ZStack {
                 Circle()
                     .frame(width:200, height: 200)
@@ -34,18 +35,19 @@ struct VetView: View {
                 Text(toDo)
             }
             .listStyle(.grouped)
-
-                Text("Recordar")
-                    .font(.title)
-                List(notes, id: \.self) { note in
-                    Text(note)
-                        .foregroundColor(.pink)
+            
+            Text("Recordar")
+                .font(.title)
+            List(notes, id: \.self) { note in
+                Text(note)
+                    .foregroundColor(.pink)
             }
-                
-                .navigationBarTitleDisplayMode(.large)
         }
     }
 }
+
+
+
 
 struct VetView_Previews: PreviewProvider {
     static var previews: some View {
